@@ -1,0 +1,38 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(runner.TestRunner, com.novocode.junit.RunWithFingerprint@f25a421, false, [SuiteSelector])[0m
+[0m[[0m[31merror[0m] [0m[0mTest [33mPara-bank Login[0m.[31mSuccessful login with valid credentials #2[0m failed: org.openqa.selenium.[31mNoSuchSessionException[0m: Session ID is null. Using WebDriver after calling quit()?[0m
+[0m[[0m[31merror[0m] [0m[0mBuild info: version: '4.33.0', revision: '2c6aaad03a'[0m
+[0m[[0m[31merror[0m] [0m[0mSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '11.0.19'[0m
+[0m[[0m[31merror[0m] [0m[0mDriver info: org.openqa.selenium.chrome.ChromeDriver[0m
+[0m[[0m[31merror[0m] [0m[0mCommand: [null, get {url=https://parabank.parasoft.com/parabank/index.htm}][0m
+[0m[[0m[31merror[0m] [0m[0mCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.119, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/hv/gfdh249j0b3...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62339}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:62339/devtoo..., se:cdpVersion: 137.0.7151.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}, took 0.607 sec[0m
+[0m[[0m[31merror[0m] [0m[0m    at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:176)[0m
+[0m[[0m[31merror[0m] [0m[0m    at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)[0m
+[0m[[0m[31merror[0m] [0m[0m    at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)[0m
+[0m[[0m[31merror[0m] [0m[0m    at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)[0m
+[0m[[0m[31merror[0m] [0m[0m    at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:312)[0m
+[0m[[0m[31merror[0m] [0m[0m    at pages.BasePage.browserLaunch(BasePage.scala:12)[0m
+[0m[[0m[31merror[0m] [0m[0m    at pages.BasePage.browserLaunch$(BasePage.scala:10)[0m
+[0m[[0m[31merror[0m] [0m[0m    at pages.LoginPage$.browserLaunch(LoginPage.scala:5)[0m
+[0m[[0m[31merror[0m] [0m[0m    at stepdefs.LoginSteps.$anonfun$new$1(LoginSteps.scala:12)[0m
+[0m[[0m[31merror[0m] [0m[0m    at ✽.the user is on the OrangeHRM login page(file:///Users/bruna.oliveira/dev/CucumberFramework/src/test/resources/features/login.feature:11)[0m
+[0m[[0m[31merror[0m] [0m[0mTest [33mPara-bank Login[0m.[31mSuccessful login with valid credentials #3[0m failed: org.openqa.selenium.[31mNoSuchSessionException[0m: Session ID is null. Using WebDriver after calling quit()?[0m
+[0m[[0m[31merror[0m] [0m[0mBuild info: version: '4.33.0', revision: '2c6aaad03a'[0m
+[0m[[0m[31merror[0m] [0m[0mSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '11.0.19'[0m
+[0m[[0m[31merror[0m] [0m[0mDriver info: org.openqa.selenium.chrome.ChromeDriver[0m
+[0m[[0m[31merror[0m] [0m[0mCommand: [null, get {url=https://parabank.parasoft.com/parabank/index.htm}][0m
+[0m[[0m[31merror[0m] [0m[0mCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.119, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/hv/gfdh249j0b3...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62339}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:62339/devtoo..., se:cdpVersion: 137.0.7151.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}, took 0.577 sec[0m
+[0m[[0m[31merror[0m] [0m[0m    at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:176)[0m
+[0m[[0m[31merror[0m] [0m[0m    at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)[0m
+[0m[[0m[31merror[0m] [0m[0m    at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)[0m
+[0m[[0m[31merror[0m] [0m[0m    at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)[0m
+[0m[[0m[31merror[0m] [0m[0m    at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:312)[0m
+[0m[[0m[31merror[0m] [0m[0m    at pages.BasePage.browserLaunch(BasePage.scala:12)[0m
+[0m[[0m[31merror[0m] [0m[0m    at pages.BasePage.browserLaunch$(BasePage.scala:10)[0m
+[0m[[0m[31merror[0m] [0m[0m    at pages.LoginPage$.browserLaunch(LoginPage.scala:5)[0m
+[0m[[0m[31merror[0m] [0m[0m    at stepdefs.LoginSteps.$anonfun$new$1(LoginSteps.scala:12)[0m
+[0m[[0m[31merror[0m] [0m[0m    at ✽.the user is on the OrangeHRM login page(file:///Users/bruna.oliveira/dev/CucumberFramework/src/test/resources/features/login.feature:17)[0m
+[0m[[0m[0mdebug[0m] [0m[0mSummary for JUnit not available.[0m
+[0m[[0m[31merror[0m] [0m[0mFailed: Total 3, Failed 2, Errors 0, Passed 1[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	runner.TestRunner[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtestOnly[0m) sbt.TestsFailedException: Tests unsuccessful[0m
